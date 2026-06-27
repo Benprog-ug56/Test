@@ -1,0 +1,260 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
+body{
+  background: #F8F4E3;
+}
+h1{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  justify-items: center;
+  color: #a31621;
+  margin-bottom: 25px;
+}
+  #resistor{
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    
+  }
+      #box1{
+    height:40px;
+  width:50px;
+    border: 3px solid #1F2937;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0,0,0,.2);
+  }
+  .btn{
+        height:40px;
+    width:50px;
+    border: 3px solid #FAF3DD;
+    border-radius: 8px;
+    transition: 0.2s;
+  }
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.btn:active {
+    transform: scale(0.95);
+}
+    
+  #select{
+    display: flex;
+        align-self: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 70px;
+  }
+    #box2{
+    height:40px;
+    width:50px;
+    border: 3px solid #1F2937;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,.2);
+  }
+    #box3{
+    height:40px;
+    width:50px;
+    border: 3px solid #1F2937;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,.2);
+  }
+  
+  #resistance{
+    width:100%;
+    margin-top: 30px;
+  }
+
+#resistance {
+    background: #F8F4E3;
+    color: #A31621;
+    border: 2px solid #A31621;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: 0.3s;
+  box-shadow:0 6px 15px rgba(0,0,0,.15);
+
+}
+
+.show {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+#resistance:hover {
+    box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+}
+  #black1{
+    background: black;
+  }
+  #black2{
+    background: black;
+  }
+  #black3{
+    background: black;
+  }
+  #brown1{
+    background: brown;
+  }
+#brown2{
+    background: brown;
+  }
+#brown3{
+    background: brown;
+  }
+    #red1{
+    background: red;
+  }
+     #red2{
+    background: red;
+  }
+#red3{
+    background: red;
+  }
+  #orange1{
+    background: orange;
+  }
+  #orange2{
+    background: orange;
+  }
+      #orange3{
+    background: orange;
+  }
+    #yellow1{
+    background: yellow;
+  }
+       #yellow2{
+    background: yellow;
+  }
+     #yellow3{
+    background: yellow;
+  }
+  #green1{
+    background: green;
+  }
+    #green2{
+    background: green;
+  }
+#green3{
+    background: green;
+  }
+    #blue1{
+    background: blue;
+  }
+     #blue2{
+    background: blue;
+  }
+     #blue3{
+    background: blue;
+  }
+  
+#violet1{
+    background: violet;
+  }
+#violet2{
+    background: violet;
+  }
+#violet3{
+    background: violet;
+  }
+#grey1{
+  background: grey;
+}
+#grey2{
+  background: grey;
+}
+#grey3{
+  background: grey;
+}
+#white1{
+  background: white;
+}
+#white2{
+  background: white;
+}
+#white3{
+  background: white;
+}
+#getResult {
+  margin-top: 20px;
+  margin-left: 110px;
+    background: #A31621;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+#getResult:hover {
+    background: #8b111b;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    cursor: pointer;
+}
+
+#getResult:active {
+    transform: translateY(1px);
+    box-shadow: none;
+}
+
+.box1{
+    transition: 0.2s;
+}
+
+.box1:hover {
+    transform: scale(1.08);
+    border: 2px solid white;
+    box-shadow: 0 0 12px rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+
+.box1:active {
+    transform: scale(0.95);
+}
+
+.box2 {
+    transition: 0.2s;
+}
+
+.box2:hover {
+    transform: scale(1.08);
+    border: 2px solid white;
+    box-shadow: 0 0 12px rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+
+.box2:active {
+    transform: scale(0.95);
+}
+
+
+.box3{
+    transition: 0.2s;
+}
+
+.box3:hover {
+    transform: scale(1.08);
+    border: 2px solid white;
+    box-shadow: 0 0 12px rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+
+.box3:active {
+    transform: scale(0.95);
+}
+
